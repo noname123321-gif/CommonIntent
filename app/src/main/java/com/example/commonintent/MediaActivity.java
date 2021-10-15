@@ -1,0 +1,15 @@
+package com.example.commonintent;
+
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MediaActivity extends AppCompatActivity {
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_media);
+        getSupportActionBar().setTitle("Media Intent");
+    }
+}
